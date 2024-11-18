@@ -1,0 +1,11 @@
+/* src/fonts/fonts.css */
+@font-face {
+    font-family: 'Familjen Grotesk';
+    src: url('./FamiljenGrotesk-Regular.woff2') format('woff2'),
+         url('./FamiljenGrotesk-Regular.woff') format('woff'),
+         url('./FamiljenGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-optical-sizing: auto;
+  }
+  

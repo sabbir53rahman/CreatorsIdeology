@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply font-grotesk;
+  }
+
+  .button {
+    @apply relative z-10 flex items-center gap-3 font-semibold px-4 py-2 bg-transparent overflow-hidden;
+  }
+
+  .button-hover {
+    @apply absolute right-[-120px] top-[-10%] w-[200px] h-[200px] bg-white bg-opacity-20 rounded-full transition-all duration-[500ms] ease-in-out;
+  }
+
+  .button-hover:hover {
+    @apply w-[300px] h-[300px] bottom-[-100%] right-[-100%] rounded-full;
+  }
+
+  .nav_li {
+    @apply bg-inherit text-[18px] font-[600] hover:text-white;
+  }
+
+  .industry_logo {
+    @apply w-[90%];
+  }
+
+  .no-controls::-webkit-media-controls {
+    display: none !important;
+  }
+
+  .no-controls::-webkit-media-controls-enclosure {
+    display: none !important;
+  }
+
+  .no-controls::-webkit-media-controls-panel {
+    display: none !important;
+  }
+
+  .no-controls::-moz-media-controls {
+    display: none !important;
+  }
+  .my_container{
+    @apply lg:px-[40px] md:px-[30px] px-[20px]
+  }
+
+  /* Swiper Custom Styles */
+  .swiper-horizontal
+    > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+  .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    @apply !left-[90%] !-translate-x-[50%] !whitespace-nowrap !pb-[60px];
+  }
+  /* cuxt */
+ 
+}

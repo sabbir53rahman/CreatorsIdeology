@@ -1,0 +1,17 @@
+/* SwiperCustom.css */
+.swiper-pagination {
+    text-align: left; /* Align pagination dots to the left */
+    display: flex;
+    justify-content: end;
+    width: 850px;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: gray; /* Use the Tailwind color */
+    opacity: 5; /* Make sure the bullets are fully visible */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: red ; /* Active bullet color */
+  }
+  
